@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(90deg, #a1ffce, #f9ffd1);
+    padding-top: 40px;
+}
+.box1{
+    margin: 0 auto;
+    background-color: #DDDDDD;
+    width: 700px;
+    height: 500px;
+    box-shadow: 0px 0px 30px -10px rgba(34, 60, 80, 0.85);
+    display: flex;
+    align-items: center;
+}
+.box2{
+    margin: 0 auto;
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    box-shadow: -5px 5px 5px -1px rgba(34, 60, 80, 0.2);
+}
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.block2{
+    height: 450px;
+    background-image: url("beach_sunset.jpeg");
+    background-size: cover;
+}
+.network{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: Segoe UI;
+}
+.btn{
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 12pt;
+    height: 40px;
+    width: 225px;
+    margin: 10px 0;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.03);
+}
+.facebook{
+    background: #3a589e;
+}
+.twitter{
+    background: #429cd6;
+}
+.google{
+    background: #d34836;
+}
+.buttons{
+    margin-left: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-family: Segoe UI;
+    font-size: 13pt;
+    padding: 5px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgb(204, 204, 204);
+}
+.block1{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#btn{
+    font-family: Segoe UI;
+    color: white;
+    background-color: #1B9D86;
+    width: 115px;
+    height: 40px;
+    text-align: center;
+    font-size: 12pt;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#btn:hover{
+    transform: scale(1.03);
+}
+.sign{
+    font-size: 32px;
+    color: black;
+    font-family: Segoe UI; 
+    font-weight: 200;
+}
+
+#result_form{
+    font-size: 18px;
+    color: black;
+    font-family: Segoe UI;
+    position: fixed;
+    margin-top: -500px;
+}
